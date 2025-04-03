@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProductoConsumoMovil.Views.ListarProductos"
+             >
+    <ContentPage.BindingContext>
+
+        <viewMichael:ProductosViewModel/>
+
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="30">
+
+        <Button Command="{Binding CargarProductosCommand}" Text="CargarProductos"/>
+
+        <CollectionView ItemsSource="{Binding Productos}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Margin="5" Padding="15" BackgroundColor="AntiqueWhite" >
+                        <Label FontSize="17" TextColor="Black" Text="{Binding codigoProducto}"/>
+                        <Label FontSize="17" TextColor="Black" Text="{Binding nombreProducto}"/>
+                        <Label FontSize="17" TextColor="Black" Text="{Binding descripcionProducto}"/>
+                        <Label FontSize="17" TextColor="Black" Text="{Binding cantidad}"/>
+                        <Label FontSize="17" TextColor="Black" Text="{Binding precioUnitario}"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ProductoConsumoMovil.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ProductoConsumoMovil"
+    xmlns:Views="clr-namespace:ProductoConsumoMovil.Views"
+     Shell.FlyoutBehavior="Disabled"
+    Shell.TitleColor="Black"
+    Shell.TabBarBackgroundColor="White"   
+    Shell.TabBarIsVisible="True"
+    Title="PlaniLife">
+
+    <TabBar IsVisible="True">
+        <Tab Title="Registrar Productos" Icon="productos.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+        <Tab Title="Registrar Categorias" Icon="categorias.png">
+            <ShellContent ContentTemplate="{DataTemplate Views:Categorias}" />
+        </Tab>
+        <Tab Title="Listar Productos" Icon="productos.png">
+            <ShellContent ContentTemplate="{DataTemplate Views:ListarProductos}" />
+        </Tab>
+        <Tab Title="Listar Categorias" Icon="categorias.png">
+            <ShellContent ContentTemplate="{DataTemplate Views:ListarCategorias}" />
+        </Tab>
+
+    </TabBar>
+</Shell>

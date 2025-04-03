@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\productoconsumomovil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\productoconsumomovil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\views\\listarproductos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\views\\listarproductos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\views\\listarcategorias.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\views\\listarcategorias.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\productoconsumomovil\\productoconsumomovil\\views\\categorias.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EB637E0-6776-4087-B2B6-1AB950474E8E}|ProductoConsumoMovil\\ProductoConsumoMovil.csproj|solutionrelative:productoconsumomovil\\views\\categorias.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Models\\Categoria.cs",
+              "RelativeToolTip": "ProductoConsumoMovil\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:13:38.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Models\\Producto.cs",
+              "RelativeToolTip": "ProductoConsumoMovil\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:13:08.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoConsumoMovil.csproj",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\ProductoConsumoMovil.csproj",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\ProductoConsumoMovil.csproj",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\ProductoConsumoMovil.csproj",
+              "RelativeToolTip": "ProductoConsumoMovil\\ProductoConsumoMovil.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T12:03:05.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\MainPage.xaml.cs",
+              "RelativeToolTip": "ProductoConsumoMovil\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T12:18:42.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\MainPage.xaml",
+              "RelativeToolTip": "ProductoConsumoMovil\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T12:16:43.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\App.xaml",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\App.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\App.xaml",
+              "RelativeToolTip": "ProductoConsumoMovil\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T12:17:01.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Categorias.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Views\\Categorias.xaml",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\Views\\Categorias.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Views\\Categorias.xaml",
+              "RelativeToolTip": "ProductoConsumoMovil\\Views\\Categorias.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T12:04:51.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\AppShell.xaml",
+              "RelativeToolTip": "ProductoConsumoMovil\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T12:02:15.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListarProductos.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Views\\ListarProductos.xaml",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\Views\\ListarProductos.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Views\\ListarProductos.xaml",
+              "RelativeToolTip": "ProductoConsumoMovil\\Views\\ListarProductos.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T12:12:06.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListarCategorias.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Views\\ListarCategorias.xaml",
+              "RelativeDocumentMoniker": "ProductoConsumoMovil\\Views\\ListarCategorias.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ProductoConsumoMovil\\ProductoConsumoMovil\\Views\\ListarCategorias.xaml",
+              "RelativeToolTip": "ProductoConsumoMovil\\Views\\ListarCategorias.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T12:12:19.968Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

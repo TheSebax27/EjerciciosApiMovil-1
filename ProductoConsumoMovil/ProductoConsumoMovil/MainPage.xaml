@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProductoConsumoMovil.MainPage">
+
+    <ContentPage.BindingContext>
+
+        <viewMichael:ProductosViewModel/>
+
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+
+        <StackLayout Padding="20" Spacing="15">
+            <Label Text="Codigo Producto"/>
+            <Entry Placeholder="Codigo" Text="{Binding nuevoProducto.codigoProducto}"/>
+            <Label Text="Nombre Producto"/>
+            <Entry Placeholder="Nombre Producto" Text="{Binding nuevoProducto.nombreProducto}" Margin="0,5"/>
+            <Label Text="Descripcion Producto"/>
+            <Entry Placeholder="Descripcion" Text="{Binding nuevoProducto.descripcionProducto}"/>
+            <Label Text="Precio Unitario"/>
+            <Entry Keyboard="Numeric"
+               Placeholder="Precio Unidad"
+               Text="{Binding nuevoProducto.precioUnitario}"/>
+            <Label Text="Cantidad"/>
+            <Entry Keyboard="Numeric"
+               Placeholder="Cantidad"
+               Text="{Binding nuevoProducto.cantidad}"/>
+            <Label Text="Categoria"/>
+
+            <Picker
+            ItemDisplayBinding="{Binding nombreCategoria}"
+            ItemsSource="{Binding Categorias}"
+            SelectedItem="{Binding oCategoria}"/>
+            <Label/>
+            <Button Text="Registrar Producto" Command="{Binding AgregarProductosCommand}"/>
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
