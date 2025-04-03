@@ -1,9 +1,12 @@
-namespace ProductoConsumoMovil.Views;
+using ProductoConsumoMovil.ViewModel;
 
-public partial class Categorias : ContentPage
+namespace ProductoConsumoMovil.Views
 {
-	public Categorias()
-	{
-		InitializeComponent();
-	}
+    public partial class Categorias : ContentPage
+    {
+        public Categorias()
+        {
+            InitializeComponent();
+        }
+    }
 }

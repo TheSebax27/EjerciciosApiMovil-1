@@ -6,8 +6,8 @@
     xmlns:local="clr-namespace:ProductoConsumoMovil"
     xmlns:Views="clr-namespace:ProductoConsumoMovil.Views"
      Shell.FlyoutBehavior="Disabled"
-    Shell.TitleColor="Black"
-    Shell.TabBarBackgroundColor="White"   
+    Shell.TitleColor="White"
+    Shell.TabBarBackgroundColor="Black"   
     Shell.TabBarIsVisible="True"
     Title="PlaniLife">
 

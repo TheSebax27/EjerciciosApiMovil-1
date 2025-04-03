@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductoConsumoMovil.Models
 {
-    class Categoria
+    public class Categoria
     {
         public int IdCategoria { get; set; }
         public string? nombreCategoria { get; set; }
