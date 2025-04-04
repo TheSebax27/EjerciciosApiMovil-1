@@ -1,29 +1,40 @@
 ﻿using System.Net.Http.Json;
 using SensoresConsumoMovil.Models;
+using System.Threading.Tasks;
 
 namespace SensoresConsumoMovil.Services
 {
     public class ApiService
     {
         private readonly HttpClient _httpClient;
-        private readonly string _baseUrl = "https://a1ae-191-95-55-24.ngrok-free.app/api/"; // URL base corregida
+        private readonly string _baseUrl = "https://localhost:7123/api/";
+        private readonly IPreferencesService _preferencesService;
 
-        public ApiService()
+        public ApiService(IPreferencesService preferencesService = null)
         {
             _httpClient = new HttpClient();
+            _preferencesService = preferencesService ?? new PreferencesService();
         }
 
         public async Task<AlertaNivel> GetAlertaNivelAsync()
         {
             try
             {
+                // Intentar obtener del servidor
                 var response = await _httpClient.GetFromJsonAsync<AlertaNivel>($"{_baseUrl}AlertaNivel");
                 return response;
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error fetching AlertaNivel: {ex.Message}");
-                return new AlertaNivel { Id = 0, NivelAlerta = "alto" }; // Valor por defecto
+
+                // Obtener del almacenamiento local si está disponible
+                var nivelGuardado = _preferencesService.GetNivelAlerta();
+                return new AlertaNivel
+                {
+                    Id = 0,
+                    NivelAlerta = string.IsNullOrEmpty(nivelGuardado) ? "bajo" : nivelGuardado
+                };
             }
         }
 
@@ -31,13 +42,24 @@ namespace SensoresConsumoMovil.Services
         {
             try
             {
+                // Intentar obtener del servidor
                 var response = await _httpClient.GetFromJsonAsync<AlertaGPS>($"{_baseUrl}AlertaGPS");
                 return response;
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error fetching AlertaGPS: {ex.Message}");
-                return new AlertaGPS { Id = 0, ActivarGPS = true, Mensaje = "No disponible" }; // Valor por defecto
+
+                // Obtener configuración local
+                var activarGPS = _preferencesService.GetActivarGPS();
+                var mensajeGPS = _preferencesService.GetMensajeGPS();
+
+                return new AlertaGPS
+                {
+                    Id = 0,
+                    ActivarGPS = activarGPS,
+                    Mensaje = string.IsNullOrEmpty(mensajeGPS) ? "No disponible" : mensajeGPS
+                };
             }
         }
 
@@ -45,14 +67,43 @@ namespace SensoresConsumoMovil.Services
         {
             try
             {
+                // Intentar obtener del servidor
                 var response = await _httpClient.GetFromJsonAsync<AlertaSonido>($"{_baseUrl}AlertaSonido");
                 return response;
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error fetching AlertaSonido: {ex.Message}");
-                return new AlertaSonido { Id = 0, MensajeEmergencia = "disponible" }; // Valor por defecto
+
+                // Obtener configuración local
+                var mensajeEmergencia = _preferencesService.GetMensajeEmergencia();
+
+                return new AlertaSonido
+                {
+                    Id = 0,
+                    MensajeEmergencia = string.IsNullOrEmpty(mensajeEmergencia) ? "No disponible" : mensajeEmergencia
+                };
             }
+        }
+
+        // Métodos para guardar la configuración del usuario
+        public Task SaveAlertaNivelAsync(string nivel)
+        {
+            _preferencesService.SaveNivelAlerta(nivel);
+            return Task.CompletedTask;
+        }
+
+        public Task SaveAlertaGPSAsync(bool activar, string mensaje)
+        {
+            _preferencesService.SaveActivarGPS(activar);
+            _preferencesService.SaveMensajeGPS(mensaje);
+            return Task.CompletedTask;
+        }
+
+        public Task SaveAlertaSonidoAsync(string mensajeEmergencia)
+        {
+            _preferencesService.SaveMensajeEmergencia(mensajeEmergencia);
+            return Task.CompletedTask;
         }
     }
 }

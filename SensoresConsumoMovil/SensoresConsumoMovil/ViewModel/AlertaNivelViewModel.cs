@@ -12,12 +12,43 @@ namespace SensoresConsumoMovil.ViewModel
         private AlertaNivel _alertaNivel;
         private string _statusMessage;
         private bool _isLoading;
+        private string _selectedNivel;
+        private List<string> _nivelesAlerta;
 
         public AlertaNivelViewModel()
         {
             _apiService = new ApiService();
             CheckAlertaCommand = new Command(async () => await CheckAlerta());
+            ApplyNivelCommand = new Command(async () => await ApplyNivel());
             _alertaNivel = new AlertaNivel { NivelAlerta = "sin información" };
+            NivelesAlerta = new List<string> { "bajo", "medio", "alto" };
+            SelectedNivel = "bajo";
+        }
+
+        public List<string> NivelesAlerta
+        {
+            get => _nivelesAlerta;
+            set
+            {
+                if (_nivelesAlerta != value)
+                {
+                    _nivelesAlerta = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public string SelectedNivel
+        {
+            get => _selectedNivel;
+            set
+            {
+                if (_selectedNivel != value)
+                {
+                    _selectedNivel = value;
+                    OnPropertyChanged();
+                }
+            }
         }
 
         public AlertaNivel AlertaNivel
@@ -60,6 +91,7 @@ namespace SensoresConsumoMovil.ViewModel
         }
 
         public ICommand CheckAlertaCommand { get; }
+        public ICommand ApplyNivelCommand { get; }
 
         private async Task CheckAlerta()
         {
@@ -72,6 +104,7 @@ namespace SensoresConsumoMovil.ViewModel
                 if (alerta != null)
                 {
                     AlertaNivel = alerta;
+                    SelectedNivel = alerta.NivelAlerta.ToLower();
                     await ActivateVibration(alerta.NivelAlerta);
                     StatusMessage = $"Nivel de alerta: {alerta.NivelAlerta}";
                 }
@@ -83,6 +116,29 @@ namespace SensoresConsumoMovil.ViewModel
             catch (Exception ex)
             {
                 StatusMessage = $"Error: {ex.Message}";
+            }
+            finally
+            {
+                IsLoading = false;
+            }
+        }
+
+        private async Task ApplyNivel()
+        {
+            try
+            {
+                IsLoading = true;
+                StatusMessage = $"Configurando nivel de alerta a {SelectedNivel}...";
+
+                AlertaNivel.NivelAlerta = SelectedNivel;
+                await ActivateVibration(SelectedNivel);
+
+                StatusMessage = $"Nivel de alerta configurado: {SelectedNivel}";
+                OnPropertyChanged(nameof(AlertaNivel));
+            }
+            catch (Exception ex)
+            {
+                StatusMessage = $"Error al configurar nivel: {ex.Message}";
             }
             finally
             {

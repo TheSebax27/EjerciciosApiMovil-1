@@ -1,40 +1,30 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewmodel="clr-namespace:SensoresConsumoMovil.ViewModel"
              x:Class="SensoresConsumoMovil.Views.AlertaNivel"
-             Title="Alerta de Nivel">
-
+             xmlns:viewmodel="clr-namespace:SensoresConsumoMovil.ViewModel">
     <ContentPage.BindingContext>
         <viewmodel:AlertaNivelViewModel />
     </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30">
+            <Label Text="Control de Nivel de Alerta" FontSize="24" FontAttributes="Bold" />
 
-    <VerticalStackLayout Spacing="20" Padding="20" VerticalOptions="Center">
-        <Label 
-            Text="Alerta de Nivel"
-            FontAttributes="Bold"
-            FontSize="24"
-            HorizontalOptions="Center" />
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
 
-        <Frame BorderColor="LightGray" Padding="15" Margin="0,10,0,10">
-            <VerticalStackLayout Spacing="10">
-                <Label Text="Nivel Actual:" FontAttributes="Bold" />
-                <Label Text="{Binding AlertaNivel.NivelAlerta}" FontSize="18" />
-            </VerticalStackLayout>
-        </Frame>
+            <Label Text="{Binding StatusMessage}" />
 
-        <Button 
-            Text="Verificar Nivel de Alerta" 
-            Command="{Binding CheckAlertaCommand}"
-            BackgroundColor="#0078D7"
-            TextColor="White" />
+            <Frame BorderColor="Gray" Padding="15">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Seleccione nivel de alerta:" FontAttributes="Bold" />
+                    <Picker Title="Nivel de alerta" 
+                            ItemsSource="{Binding NivelesAlerta}" 
+                            SelectedItem="{Binding SelectedNivel}" />
 
-        <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
+                    <Button Text="Aplicar nivel" Command="{Binding ApplyNivelCommand}" />
+                </VerticalStackLayout>
+            </Frame>
 
-        <Label 
-            Text="{Binding StatusMessage}"
-            HorizontalOptions="Center" 
-            FontSize="16"
-            Margin="0,20,0,0" />
-    </VerticalStackLayout>
+            <Button Text="Consultar estado" Command="{Binding CheckAlertaCommand}" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

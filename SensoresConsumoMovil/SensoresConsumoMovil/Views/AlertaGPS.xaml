@@ -1,41 +1,29 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewmodel="clr-namespace:SensoresConsumoMovil.ViewModel"
              x:Class="SensoresConsumoMovil.Views.AlertaGPS"
-             Title="Alerta GPS">
-
+             xmlns:viewmodel="clr-namespace:SensoresConsumoMovil.ViewModel">
     <ContentPage.BindingContext>
         <viewmodel:AlertaGpsViewModel />
     </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30">
+            <Label Text="Estado del GPS" FontSize="24" FontAttributes="Bold" />
 
-    <VerticalStackLayout Spacing="20" Padding="20" VerticalOptions="Center">
-        <Label 
-            Text="Alerta de GPS"
-            FontAttributes="Bold"
-            FontSize="24"
-            HorizontalOptions="Center" />
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
 
-        <Frame BorderColor="LightGray" Padding="15" Margin="0,10,0,10">
-            <VerticalStackLayout Spacing="10">
-                <Label Text="Estado GPS:" FontAttributes="Bold" />
-                <Label Text="{Binding AlertaGPS.ActivarGPS, StringFormat='Activar GPS: {0}'}" FontSize="18" />
-                <Label Text="{Binding AlertaGPS.Mensaje}" FontSize="16" />
-            </VerticalStackLayout>
-        </Frame>
+            <Label Text="{Binding StatusMessage}" />
 
-        <Button 
-            Text="Verificar Estado GPS" 
-            Command="{Binding CheckGpsCommand}"
-            BackgroundColor="#0078D7"
-            TextColor="White" />
+            <Frame BorderColor="Gray" Padding="15">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Control de GPS" FontAttributes="Bold" />
+                    <Switch IsToggled="{Binding IsGpsActive}" />
+                    <Label Text="GPS Activado" IsVisible="{Binding IsGpsActive}" />
+                    <Label Text="GPS Desactivado" IsVisible="{Binding !IsGpsActive}" />
+                    <Button Text="Aplicar cambios" Command="{Binding ToggleGpsCommand}" />
+                </VerticalStackLayout>
+            </Frame>
 
-        <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
-
-        <Label 
-            Text="{Binding StatusMessage}"
-            HorizontalOptions="Center" 
-            FontSize="16"
-            Margin="0,20,0,0" />
-    </VerticalStackLayout>
+            <Button Text="Consultar estado GPS" Command="{Binding CheckGpsCommand}" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

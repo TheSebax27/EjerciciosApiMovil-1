@@ -13,12 +13,15 @@ namespace SensoresConsumoMovil.ViewModel
         private AlertaGPS _alertaGPS;
         private string _statusMessage;
         private bool _isLoading;
+        private bool _isGpsActive;
 
         public AlertaGpsViewModel()
         {
             _apiService = new ApiService();
             CheckGpsCommand = new Command(async () => await CheckGps());
+            ToggleGpsCommand = new Command(async () => await ToggleGps());
             _alertaGPS = new AlertaGPS { ActivarGPS = false, Mensaje = "Sin información" };
+            IsGpsActive = false;
         }
 
         public AlertaGPS AlertaGPS
@@ -29,6 +32,20 @@ namespace SensoresConsumoMovil.ViewModel
                 if (_alertaGPS != value)
                 {
                     _alertaGPS = value;
+                    IsGpsActive = value.ActivarGPS;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public bool IsGpsActive
+        {
+            get => _isGpsActive;
+            set
+            {
+                if (_isGpsActive != value)
+                {
+                    _isGpsActive = value;
                     OnPropertyChanged();
                 }
             }
@@ -61,6 +78,7 @@ namespace SensoresConsumoMovil.ViewModel
         }
 
         public ICommand CheckGpsCommand { get; }
+        public ICommand ToggleGpsCommand { get; }
 
         private async Task CheckGps()
         {
@@ -73,6 +91,7 @@ namespace SensoresConsumoMovil.ViewModel
                 if (alerta != null)
                 {
                     AlertaGPS = alerta;
+                    IsGpsActive = alerta.ActivarGPS;
 
                     if (alerta.ActivarGPS)
                     {
@@ -89,6 +108,36 @@ namespace SensoresConsumoMovil.ViewModel
             catch (Exception ex)
             {
                 StatusMessage = $"Error: {ex.Message}";
+            }
+            finally
+            {
+                IsLoading = false;
+            }
+        }
+
+        private async Task ToggleGps()
+        {
+            try
+            {
+                IsLoading = true;
+                AlertaGPS.ActivarGPS = IsGpsActive;
+
+                if (IsGpsActive)
+                {
+                    AlertaGPS.Mensaje = "GPS activado manualmente";
+                    await ActivateGps("GPS activado manualmente");
+                }
+                else
+                {
+                    AlertaGPS.Mensaje = "GPS desactivado manualmente";
+                }
+
+                StatusMessage = AlertaGPS.Mensaje;
+                OnPropertyChanged(nameof(AlertaGPS));
+            }
+            catch (Exception ex)
+            {
+                StatusMessage = $"Error al cambiar estado del GPS: {ex.Message}";
             }
             finally
             {

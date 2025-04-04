@@ -1,40 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewmodel="clr-namespace:SensoresConsumoMovil.ViewModel"
              x:Class="SensoresConsumoMovil.Views.NivelSonido"
-             Title="Alerta de Sonido">
-
+             xmlns:viewmodel="clr-namespace:SensoresConsumoMovil.ViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
     <ContentPage.BindingContext>
         <viewmodel:AlertaSonidoViewModel />
     </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30">
+            <Label Text="Mensaje de Emergencia" FontSize="24" FontAttributes="Bold" />
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
+            <Label Text="{Binding StatusMessage}" />
+            <Frame BorderColor="Gray" Padding="15">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Crear mensaje de emergencia:" FontAttributes="Bold" />
+                    <Entry Placeholder="Mensaje de emergencia" 
+                           Text="{Binding MensajeEmergencia}" />
+                    <Label Text="Seleccione nivel de gravedad:" />
+                    <Picker Title="Nivel de gravedad" 
+                            ItemsSource="{Binding NivelesGravedad}" 
+                            SelectedItem="{Binding SelectedGravedad}" />
+                    <Button Text="Enviar mensaje de emergencia" 
+                            Command="{Binding EnviarMensajeEmergenciaCommand}" />
+                </VerticalStackLayout>
+            </Frame>
+            <Button Text="Consultar alertas" Command="{Binding CheckSonidoCommand}" />
 
-    <VerticalStackLayout Spacing="20" Padding="20" VerticalOptions="Center">
-        <Label 
-            Text="Alerta de Sonido"
-            FontAttributes="Bold"
-            FontSize="24"
-            HorizontalOptions="Center" />
-
-        <Frame BorderColor="LightGray" Padding="15" Margin="0,10,0,10">
-            <VerticalStackLayout Spacing="10">
-                <Label Text="Mensaje de Emergencia:" FontAttributes="Bold" />
-                <Label Text="{Binding AlertaSonido.MensajeEmergencia}" FontSize="16" TextColor="#FF5733" />
-            </VerticalStackLayout>
-        </Frame>
-
-        <Button 
-            Text="Verificar Alertas de Sonido" 
-            Command="{Binding CheckSonidoCommand}"
-            BackgroundColor="#0078D7"
-            TextColor="White" />
-
-        <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
-
-        <Label 
-            Text="{Binding StatusMessage}"
-            HorizontalOptions="Center" 
-            FontSize="16"
-            Margin="0,20,0,0" />
-    </VerticalStackLayout>
+            <!-- MediaElement para reproducir audio -->
+            <toolkit:MediaElement x:Name="mediaPlayer" 
+                                IsVisible="false" 
+                                Volume="1.0" 
+                                ShouldAutoPlay="false" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

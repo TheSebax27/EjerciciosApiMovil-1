@@ -1,23 +1,31 @@
+using System;
+using Microsoft.Maui.Controls;
 using SensoresConsumoMovil.ViewModel;
 
-namespace SensoresConsumoMovil.Views;
-
-public partial class NivelSonido : ContentPage
+namespace SensoresConsumoMovil.Views
 {
-    public NivelSonido()
+    public partial class NivelSonido : ContentPage
     {
-        InitializeComponent();
-    }
-
-    protected override async void OnAppearing()
-    {
-        base.OnAppearing();
-
-        // Execute the command to check for sound alerts
-        if (BindingContext is AlertaSonidoViewModel viewModel)
+        public NivelSonido()
         {
-            await Task.Delay(500); // Small delay to ensure view is fully loaded
-            viewModel.CheckSonidoCommand.Execute(null);
+            InitializeComponent();
+
+            // Conectar el MediaElement con el ViewModel después de la inicialización
+            if (BindingContext is AlertaSonidoViewModel viewModel)
+            {
+                viewModel.SetMediaElement(mediaPlayer);
+            }
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            // Volver a conectar el MediaElement por si acaso
+            if (BindingContext is AlertaSonidoViewModel viewModel)
+            {
+                viewModel.SetMediaElement(mediaPlayer);
+            }
         }
     }
 }

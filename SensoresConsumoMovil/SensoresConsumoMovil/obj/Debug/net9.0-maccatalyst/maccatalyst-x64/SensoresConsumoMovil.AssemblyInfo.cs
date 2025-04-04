@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SensoresConsumoMovil")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c540bc7365e2748026cc66e4ee880066c5877a0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bd07d297b214a8b250024706903cb411130b8cdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SensoresConsumoMovil")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SensoresConsumoMovil")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

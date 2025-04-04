@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{E56F6981-0D7D-4B69-8876-83675BA0B55A}|ApiSensores\\ApiSensores.csproj|solutionrelative:apisensores\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Controllers\\AlertaSonidoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiSensores\\Controllers\\AlertaSonidoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E56F6981-0D7D-4B69-8876-83675BA0B55A}|ApiSensores\\ApiSensores.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\apisensores\\apisensores\\models\\alertasonido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E56F6981-0D7D-4B69-8876-83675BA0B55A}|ApiSensores\\ApiSensores.csproj|solutionrelative:apisensores\\models\\alertasonido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +37,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E56F6981-0D7D-4B69-8876-83675BA0B55A}|ApiSensores\\ApiSensores.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\apisensores\\apisensores\\migrations\\20250404121811_migracion1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E56F6981-0D7D-4B69-8876-83675BA0B55A}|ApiSensores\\ApiSensores.csproj|solutionrelative:apisensores\\migrations\\20250404121811_migracion1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56F6981-0D7D-4B69-8876-83675BA0B55A}|ApiSensores\\ApiSensores.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\apisensores\\apisensores\\controllers\\alertasonidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56F6981-0D7D-4B69-8876-83675BA0B55A}|ApiSensores\\ApiSensores.csproj|solutionrelative:apisensores\\controllers\\alertasonidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,24 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AlertaSonidoController.cs",
-              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Controllers\\AlertaSonidoController.cs",
-              "RelativeDocumentMoniker": "ApiSensores\\Controllers\\AlertaSonidoController.cs",
-              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Controllers\\AlertaSonidoController.cs",
-              "RelativeToolTip": "ApiSensores\\Controllers\\AlertaSonidoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T13:28:28.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AlertaGPS.cs",
               "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Models\\AlertaGPS.cs",
               "RelativeDocumentMoniker": "ApiSensores\\Models\\AlertaGPS.cs",
@@ -79,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AlertaNivel.cs",
               "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Models\\AlertaNivel.cs",
               "RelativeDocumentMoniker": "ApiSensores\\Models\\AlertaNivel.cs",
@@ -91,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AlertaSonido.cs",
               "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Models\\AlertaSonido.cs",
               "RelativeDocumentMoniker": "ApiSensores\\Models\\AlertaSonido.cs",
@@ -116,7 +103,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "AlertaSonidoController.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Controllers\\AlertaSonidoController.cs",
+              "RelativeDocumentMoniker": "ApiSensores\\Controllers\\AlertaSonidoController.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Controllers\\AlertaSonidoController.cs",
+              "RelativeToolTip": "ApiSensores\\Controllers\\AlertaSonidoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:28:28.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AlertaNivelController.cs",
               "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Controllers\\AlertaNivelController.cs",
               "RelativeDocumentMoniker": "ApiSensores\\Controllers\\AlertaNivelController.cs",
@@ -128,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AlertaGPSController.cs",
               "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Controllers\\AlertaGPSController.cs",
               "RelativeDocumentMoniker": "ApiSensores\\Controllers\\AlertaGPSController.cs",
@@ -140,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "20250404121811_Migracion1.cs",
               "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Migrations\\20250404121811_Migracion1.cs",
               "RelativeDocumentMoniker": "ApiSensores\\Migrations\\20250404121811_Migracion1.cs",
@@ -152,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\appsettings.json",
               "RelativeDocumentMoniker": "ApiSensores\\appsettings.json",
@@ -164,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\ApiSensores\\ApiSensores\\Program.cs",
               "RelativeDocumentMoniker": "ApiSensores\\Program.cs",
