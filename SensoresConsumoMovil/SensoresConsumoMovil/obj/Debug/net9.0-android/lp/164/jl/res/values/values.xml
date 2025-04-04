@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="maui_empty_unused"/>
+    <declare-styleable name="SwipeRefreshLayout">
+        <!-- Background color for SwipeRefreshLayout progress spinner. -->
+        <attr format="color" name="swipeRefreshLayoutProgressSpinnerBackgroundColor"/>
+    </declare-styleable>
 </resources>

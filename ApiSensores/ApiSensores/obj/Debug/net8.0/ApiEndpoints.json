@@ -1,0 +1,329 @@
+[
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaGPSController",
+    "Method": "GetAlertaGPSS",
+    "RelativePath": "api/AlertaGPS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiSensores.Models.AlertaGPS, ApiSensores, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaGPSController",
+    "Method": "PostAlertaGPS",
+    "RelativePath": "api/AlertaGPS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alertaGPS",
+        "Type": "ApiSensores.Models.AlertaGPS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiSensores.Models.AlertaGPS",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaGPSController",
+    "Method": "GetAlertaGPS",
+    "RelativePath": "api/AlertaGPS/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiSensores.Models.AlertaGPS",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaGPSController",
+    "Method": "PutAlertaGPS",
+    "RelativePath": "api/AlertaGPS/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "alertaGPS",
+        "Type": "ApiSensores.Models.AlertaGPS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaGPSController",
+    "Method": "DeleteAlertaGPS",
+    "RelativePath": "api/AlertaGPS/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaNivelController",
+    "Method": "GetAlertaNiveles",
+    "RelativePath": "api/AlertaNivel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiSensores.Models.AlertaNivel, ApiSensores, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaNivelController",
+    "Method": "PostAlertaNivel",
+    "RelativePath": "api/AlertaNivel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alertaNivel",
+        "Type": "ApiSensores.Models.AlertaNivel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiSensores.Models.AlertaNivel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaNivelController",
+    "Method": "GetAlertaNivel",
+    "RelativePath": "api/AlertaNivel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiSensores.Models.AlertaNivel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaNivelController",
+    "Method": "PutAlertaNivel",
+    "RelativePath": "api/AlertaNivel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "alertaNivel",
+        "Type": "ApiSensores.Models.AlertaNivel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaNivelController",
+    "Method": "DeleteAlertaNivel",
+    "RelativePath": "api/AlertaNivel/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaSonidoController",
+    "Method": "GetAlertaSonidos",
+    "RelativePath": "api/AlertaSonido",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiSensores.Models.AlertaSonido, ApiSensores, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaSonidoController",
+    "Method": "PostAlertaSonido",
+    "RelativePath": "api/AlertaSonido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alertaSonido",
+        "Type": "ApiSensores.Models.AlertaSonido",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiSensores.Models.AlertaSonido",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaSonidoController",
+    "Method": "GetAlertaSonido",
+    "RelativePath": "api/AlertaSonido/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiSensores.Models.AlertaSonido",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaSonidoController",
+    "Method": "PutAlertaSonido",
+    "RelativePath": "api/AlertaSonido/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "alertaSonido",
+        "Type": "ApiSensores.Models.AlertaSonido",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiSensores.Controllers.AlertaSonidoController",
+    "Method": "DeleteAlertaSonido",
+    "RelativePath": "api/AlertaSonido/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

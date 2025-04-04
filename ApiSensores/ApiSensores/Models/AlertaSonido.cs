@@ -6,3 +6,4 @@
         public string MensajeEmergencia { get; set; }
     }
 }
+

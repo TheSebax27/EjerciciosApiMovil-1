@@ -12,8 +12,8 @@ namespace ProductoConsumoMovil.Services
     class ApiService
     {
         private readonly HttpClient _httpClient;
-        private const string urlProducto = "https://localhost:7225/api/Producto";
-        private const string urlCategoria = "https://localhost:7225/api/Categoria";
+        private const string urlProducto = "https://c011-191-95-55-24.ngrok-free.app/api/Producto";
+        private const string urlCategoria = " https://c011-191-95-55-24.ngrok-free.app/api/Categoria";
 
         public ApiService()
         {

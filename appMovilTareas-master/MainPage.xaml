@@ -1,0 +1,112 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appMovilTareas.MainPage"
+             BackgroundColor="#f5f5f5">
+
+    <ScrollView>
+        <Grid RowDefinitions="Auto,*,Auto"
+              Padding="30,20"
+              RowSpacing="20">
+
+            <!-- Logo/Header Section -->
+            <VerticalStackLayout Grid.Row="0" Spacing="10" Margin="0,40,0,0">
+                <Frame HeightRequest="80" 
+                       WidthRequest="80" 
+                       CornerRadius="40" 
+                       HorizontalOptions="Center"
+                       BackgroundColor="#3498db"
+                       BorderColor="Transparent"
+                       Padding="0">
+                    <Label Text="✓" 
+                           FontSize="40" 
+                           TextColor="White" 
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Center"/>
+                </Frame>
+                <Label Text="TaskMaster" 
+                       FontSize="28" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center" 
+                       TextColor="#333333"
+                       Margin="0,5,0,0"/>
+                <Label Text="Gestiona tus tareas diarias" 
+                       FontSize="16" 
+                       HorizontalOptions="Center" 
+                       TextColor="#666666"/>
+            </VerticalStackLayout>
+
+            <!-- Login Form -->
+            <VerticalStackLayout Grid.Row="1" 
+                                 Spacing="20" 
+                                 VerticalOptions="Center"
+                                 Margin="0,30,0,0">
+
+                <Label Text="Iniciar Sesión" 
+                       FontSize="22" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Start" 
+                       TextColor="#333333"/>
+
+                <!-- Documento Input -->
+                <Frame BorderColor="Transparent" 
+                       BackgroundColor="White" 
+                       CornerRadius="10" 
+                       HasShadow="True"
+                       Padding="15,2">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Documento" 
+                               FontSize="14" 
+                               TextColor="#666666"/>
+                        <Entry Text="{Binding Documento}" 
+                               Placeholder="Ingrese su número de documento" 
+                               Keyboard="Numeric"
+                               PlaceholderColor="LightGray"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Password Input -->
+                <Frame BorderColor="Transparent" 
+                       BackgroundColor="White" 
+                       CornerRadius="10" 
+                       HasShadow="True"
+                       Padding="15,2">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Contraseña" 
+                               FontSize="14" 
+                               TextColor="#666666"/>
+                        <Entry Text="{Binding Clave}" 
+                               Placeholder="Ingrese su contraseña" 
+                               IsPassword="True"
+                               PlaceholderColor="LightGray"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Error Message -->
+                <Label Text="{Binding Mensaje}" 
+                       TextColor="#e74c3c" 
+                       HorizontalOptions="Center"
+                       IsVisible="{Binding IsMensajeVisible}"/>
+
+                <!-- Login Button -->
+                <Button Text="INGRESAR" 
+                        Command="{Binding LoginCommand}"
+                        BackgroundColor="#3498db"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        Margin="0,10"/>
+            </VerticalStackLayout>
+
+            <!-- Footer -->
+            <VerticalStackLayout Grid.Row="2" 
+                                 HorizontalOptions="Center"
+                                 Spacing="5">
+                <Label Text="¿Olvidaste tu contraseña?"
+                       TextColor="#3498db"
+                       FontSize="14"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

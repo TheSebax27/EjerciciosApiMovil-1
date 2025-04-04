@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appApiTareass", "appApiTareass.csproj", "{FDE9AC8F-912C-4C45-8CCB-F04E0613A56F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDE9AC8F-912C-4C45-8CCB-F04E0613A56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE9AC8F-912C-4C45-8CCB-F04E0613A56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE9AC8F-912C-4C45-8CCB-F04E0613A56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE9AC8F-912C-4C45-8CCB-F04E0613A56F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED3C597B-668E-4EA7-B422-5E6A9D0BFFBC}
+	EndGlobalSection
+EndGlobal

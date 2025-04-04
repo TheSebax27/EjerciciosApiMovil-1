@@ -1,12 +1,360 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\models\\alertasonido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\models\\alertasonido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\viewmodel\\alertasonidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\viewmodel\\alertasonidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\viewmodel\\alertanivelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\viewmodel\\alertanivelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\viewmodel\\alertagpsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\viewmodel\\alertagpsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\models\\alertagps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\models\\alertagps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\models\\alertanivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\models\\alertanivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\views\\nivelsonido.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\views\\nivelsonido.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\views\\alertagps.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\views\\alertagps.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\views\\alertanivel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\views\\alertanivel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\views\\nivelsonido.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\views\\nivelsonido.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\views\\alertanivel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\views\\alertanivel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\views\\alertagps.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\views\\alertagps.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|c:\\users\\pc_11\\desktop\\ejerciciosconsumomovilmaui\\sensoresconsumomovil\\sensoresconsumomovil\\sensoresconsumomovil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6B297D0-EC61-401A-9FDF-B82EB34112BE}|SensoresConsumoMovil\\SensoresConsumoMovil.csproj|solutionrelative:sensoresconsumomovil\\sensoresconsumomovil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlertaNivelViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\ViewModel\\AlertaNivelViewModel.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\ViewModel\\AlertaNivelViewModel.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\ViewModel\\AlertaNivelViewModel.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\ViewModel\\AlertaNivelViewModel.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAuwIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:17:40.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlertaSonidoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\ViewModel\\AlertaSonidoViewModel.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\ViewModel\\AlertaSonidoViewModel.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\ViewModel\\AlertaSonidoViewModel.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\ViewModel\\AlertaSonidoViewModel.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:17:57.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Services\\ApiService.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\Services\\ApiService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIAwwDUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:16:25.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlertaGpsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\ViewModel\\AlertaGpsViewModel.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\ViewModel\\AlertaGpsViewModel.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\ViewModel\\AlertaGpsViewModel.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\ViewModel\\AlertaGpsViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:16:46.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlertaGPS.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Models\\AlertaGPS.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Models\\AlertaGPS.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Models\\AlertaGPS.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\Models\\AlertaGPS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:42:16.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlertaNivel.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Models\\AlertaNivel.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Models\\AlertaNivel.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Models\\AlertaNivel.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\Models\\AlertaNivel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:42:45.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlertaSonido.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Models\\AlertaSonido.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Models\\AlertaSonido.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Models\\AlertaSonido.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\Models\\AlertaSonido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:44:33.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\App.xaml",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\App.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\App.xaml",
+              "RelativeToolTip": "SensoresConsumoMovil\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T14:47:37.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\AppShell.xaml",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\AppShell.xaml",
+              "RelativeToolTip": "SensoresConsumoMovil\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T15:30:56.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\MainPage.xaml.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:35:40.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\MainPage.xaml",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\MainPage.xaml",
+              "RelativeToolTip": "SensoresConsumoMovil\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T13:32:38.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\MauiProgram.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:45:21.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SensoresConsumoMovil.csproj",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\SensoresConsumoMovil.csproj",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\SensoresConsumoMovil.csproj",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\SensoresConsumoMovil.csproj",
+              "RelativeToolTip": "SensoresConsumoMovil\\SensoresConsumoMovil.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T14:47:57.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "SensoresConsumoMovil\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-04-04T15:03:24.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AlertaGPS.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\AlertaGPS.xaml.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Views\\AlertaGPS.xaml.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\AlertaGPS.xaml.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\Views\\AlertaGPS.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:36:02.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AlertaNivel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\AlertaNivel.xaml.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Views\\AlertaNivel.xaml.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\AlertaNivel.xaml.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\Views\\AlertaNivel.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:35:48.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NivelSonido.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\NivelSonido.xaml.cs",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Views\\NivelSonido.xaml.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\NivelSonido.xaml.cs",
+              "RelativeToolTip": "SensoresConsumoMovil\\Views\\NivelSonido.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:35:55.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NivelSonido.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\NivelSonido.xaml",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Views\\NivelSonido.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\NivelSonido.xaml",
+              "RelativeToolTip": "SensoresConsumoMovil\\Views\\NivelSonido.xaml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T13:19:13.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AlertaNivel.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\AlertaNivel.xaml",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Views\\AlertaNivel.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\AlertaNivel.xaml",
+              "RelativeToolTip": "SensoresConsumoMovil\\Views\\AlertaNivel.xaml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T13:18:37.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AlertaGPS.xaml",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\AlertaGPS.xaml",
+              "RelativeDocumentMoniker": "SensoresConsumoMovil\\Views\\AlertaGPS.xaml",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\EjerciciosConsumoMovilMAUI\\SensoresConsumoMovil\\SensoresConsumoMovil\\Views\\AlertaGPS.xaml",
+              "RelativeToolTip": "SensoresConsumoMovil\\Views\\AlertaGPS.xaml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAtwCgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T13:56:03.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
